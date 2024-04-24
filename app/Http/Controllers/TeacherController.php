@@ -64,7 +64,7 @@ class TeacherController extends Controller
      */
     public function destroy(Teacher $teacher)
     {
-        //
+        return response()->json([], 204);
     }
 
     public function courses(Teacher $teacher)

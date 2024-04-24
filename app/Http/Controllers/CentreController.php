@@ -50,12 +50,9 @@ class CentreController extends Controller
         //
     }
 
-    /**
-     * Remove the specified resource from storage.
-     */
     public function destroy(Centre $centre)
     {
-        //
+        return response()->json([], 204);
     }
 
     public function images()

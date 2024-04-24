@@ -64,7 +64,7 @@ class StudentController extends Controller
      */
     public function destroy(Student $student)
     {
-        //
+        return response()->json([], 204);
     }
 
     public function courses(Student $student)
